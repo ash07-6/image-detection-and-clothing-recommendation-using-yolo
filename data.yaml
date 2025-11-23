@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Jacket', 'Pants', 'Shirt', 'Shorts', 'Skirt', 'Sweater', 'Top', 'Tshirt']
+
+roboflow:
+  workspace: object-detection-074xs
+  project: clothes-segmentation-final-spezt
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-074xs/clothes-segmentation-final-spezt/dataset/2
